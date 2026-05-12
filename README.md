@@ -8,4 +8,5 @@
    /_/ \_\ \___|   |_|     /___|
 
 
-   En la actividad presente vemos como podemos diferenciar entre las violaciones del SOLID, como modificaralo, arreglarlo y mantenerlo limpio
+   En la actividad presente vemos como podemos diferenciar entre las violaciones del SOLID, 
+   como modificaralo, arreglarlo y mantenerlo limpio
