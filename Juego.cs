@@ -18,7 +18,7 @@
             _letrasUsadas = new List<char>();
             _intentosRestantes = 6;
         }
-        /* Continúa en la siguiente slide */
+        
 
         public void Jugar()
         {
