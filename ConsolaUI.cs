@@ -37,6 +37,25 @@
             return Console.ReadLine()?.ToLower() == "s";
         }
 
+        public static int PedirCategoria()
+        {
+            Console.Clear();
+            Console.WriteLine("=== SELECCIONA UNA CATEGORÍA ===");
+            Console.WriteLine("1. Arquitectura");
+            Console.WriteLine("2. POO");
+            Console.WriteLine("3. .NET");
+            Console.Write("\nElige una opción (1-3): ");
+
+            // Validamos que el usuario ingrese un número del 1 al 3
+            if (int.TryParse(Console.ReadLine(), out int opcion) && opcion >= 1 && opcion <= 3)
+            {
+                return opcion;
+            }
+
+            return 1; // Si introduce un error, por defecto seleccionamos la 1
+        }
+
+
         private void MostrarAhorcado()
         {
             string[] etapas = new string[]
